@@ -48,7 +48,7 @@ class ViewController: UIViewController {
         
         countDown.text = "\(counter)"
         counter -= 1
-        //random sayı üretildi
+        //random sayı üretildi..
         let randomNumberX = Int.random(in: 0...200)
         let randomNumberY = Int.random(in: 200...518)
         
@@ -88,7 +88,7 @@ class ViewController: UIViewController {
     
     @objc func countCatched() {
        catchedCount += 1
-        print("tıklanıyor")
+        print("clicking")
        scoreLabel.text = "Score: \(catchedCount)"
         
       
