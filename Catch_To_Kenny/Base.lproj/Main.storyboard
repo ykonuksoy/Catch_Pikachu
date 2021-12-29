@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Catch_To_Kenny" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Catch to Pikachu" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zRw-Mh-fyb">
+                                <rect key="frame" x="83" y="52" width="249" height="42"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="42" id="YK3-Of-NZd"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Score:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m4m-y6-3lI">
+                                <rect key="frame" x="149" y="189" width="111" height="39"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="39" id="JEb-CF-wvd"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="High Score:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yWq-oQ-G9w">
+                                <rect key="frame" x="134" y="653" width="160" height="46"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="46" id="bim-w2-w8H"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aYS-bW-fCx">
+                                <rect key="frame" x="20" y="102" width="374" height="66"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="66" id="OBN-xX-N8e"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="49"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="pokemon_logo_PNG6" translatesAutoresizingMaskIntoConstraints="NO" id="RSf-kS-Bmw">
+                                <rect key="frame" x="85" y="722" width="245" height="97"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="97" id="nju-Vf-Tl2"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemYellowColor"/>
+                        <constraints>
+                            <constraint firstItem="aYS-bW-fCx" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="61J-dr-vVZ"/>
+                            <constraint firstItem="zRw-Mh-fyb" firstAttribute="centerX" secondItem="aYS-bW-fCx" secondAttribute="centerX" id="7XS-Rn-wfs"/>
+                            <constraint firstItem="m4m-y6-3lI" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="149" id="DYa-uz-aG9"/>
+                            <constraint firstItem="yWq-oQ-G9w" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="134" id="Eer-tE-mRA"/>
+                            <constraint firstItem="RSf-kS-Bmw" firstAttribute="top" secondItem="yWq-oQ-G9w" secondAttribute="bottom" constant="23" id="NdF-4p-DFx"/>
+                            <constraint firstItem="zRw-Mh-fyb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="83" id="SZ6-27-UBs"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="RSf-kS-Bmw" secondAttribute="bottom" constant="43" id="XLv-2O-nve"/>
+                            <constraint firstItem="m4m-y6-3lI" firstAttribute="top" secondItem="aYS-bW-fCx" secondAttribute="bottom" constant="21" id="Xcz-vm-Iqn"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="yWq-oQ-G9w" secondAttribute="trailing" constant="120" id="ah9-ej-9bR"/>
+                            <constraint firstItem="aYS-bW-fCx" firstAttribute="centerX" secondItem="RSf-kS-Bmw" secondAttribute="centerX" id="iSc-kY-yLS"/>
+                            <constraint firstItem="zRw-Mh-fyb" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="8" id="jR4-Mw-tpd"/>
+                            <constraint firstItem="aYS-bW-fCx" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="mZZ-M8-GQF"/>
+                            <constraint firstItem="RSf-kS-Bmw" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="85" id="pGf-zi-pSI"/>
+                            <constraint firstItem="aYS-bW-fCx" firstAttribute="top" secondItem="zRw-Mh-fyb" secondAttribute="bottom" constant="8" id="qTD-7H-JRB"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="m4m-y6-3lI" secondAttribute="trailing" constant="154" id="z6c-PA-4i0"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="countDown" destination="aYS-bW-fCx" id="wX7-Dy-moz"/>
+                        <outlet property="highScore" destination="yWq-oQ-G9w" id="Lgq-xZ-mzg"/>
+                        <outlet property="scoreLabel" destination="m4m-y6-3lI" id="Crc-Dx-Vbh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="101.78571428571428"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="pokemon_logo_PNG6" width="300" height="145"/>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
